@@ -1,0 +1,22 @@
+{
+  "name": "basic-site-project",
+  "version": "1.0.0",
+  "description": "first node project of the odin project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DYLANeay/node-basic-site-project.git"
+  },
+  "author": "DYLANeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DYLANeay/node-basic-site-project/issues"
+  },
+  "homepage": "https://github.com/DYLANeay/node-basic-site-project#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
