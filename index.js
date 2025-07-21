@@ -1,8 +1,10 @@
+require('dotenv').config();
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 19789;
+//accessing the PORT from the .env file
+const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   let filePath = path.join(

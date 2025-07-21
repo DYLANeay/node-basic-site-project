@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DYLANeay/node-basic-site-project#readme",
   "devDependencies": {
     "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
   }
 }
