@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 //accessing the PORT from the .env file
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 const server = http.createServer((req, res) => {
   let filePath = path.join(
